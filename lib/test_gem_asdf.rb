@@ -4,5 +4,7 @@ require_relative "test_gem_asdf/version"
 
 module TestGemAsdf
   class Error < StandardError; end
-  # Your code goes here...
+  def self.hello
+    "Hello World"
+  end
 end
